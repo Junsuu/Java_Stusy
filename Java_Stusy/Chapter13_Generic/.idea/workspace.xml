@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5633bcfc-0906-486b-aefc-6348261a411e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1huBMTXC5ugNwPvdiBDygrYN2aL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.java.Main" />
+      <module name="Chapter13_Generic" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5633bcfc-0906-486b-aefc-6348261a411e" name="Default Changelist" comment="" />
+      <created>1600851048857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600851048857</updated>
+      <workItem from="1600851053353" duration="1155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="237" key="#Auto_Import" timestamp="1600851701912">
+      <screen x="55" y="23" width="1737" height="1097" />
+    </state>
+    <state x="522" y="237" key="#Auto_Import/55.23.1737.1097@55.23.1737.1097" timestamp="1600851701912" />
+    <state x="522" y="237" key="#Project_Structure" timestamp="1600851075898">
+      <screen x="53" y="23" width="1739" height="1097" />
+    </state>
+    <state x="522" y="237" key="#Project_Structure/53.23.1739.1097@53.23.1739.1097" timestamp="1600851075898" />
+    <state x="582" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1600851054053">
+      <screen x="53" y="23" width="1739" height="1097" />
+    </state>
+    <state x="582" y="404" key="com.intellij.ide.util.TipDialog/53.23.1739.1097@53.23.1739.1097" timestamp="1600851054053" />
+  </component>
+</project>
