@@ -183,7 +183,9 @@ intStream.filter(a -> a%2 ==0).peek( a-> Systeam.out.print(a) ).sum()
 
 ## Optional 클래스
 Optional, OptionalDouble, OptionalInt, OptionalLong 클래스에 대해서 알아보면 이 클래스들은 저장하는 값의 타입만 다른 뿐 제공하는 기능은 거의 동일 하다. Optional 클래스는 단순히 집계 값만 저장하는 것이 아니라. 집계 값이 존재하지 않을 경우 디폴트 값을 설정할 수도 있고, 집계 값을 처리하는 Consumer도 등록할 수 있다.
+
 ![optional클래스1.png](../../../optional클래스1.png)
+
 컬렉션 요소는 동적으로 추가되는 경우가 많은데 컬렉션의 요소가 추가되지 않아 저장된 요소가 없을 경우
 ~~~java
 List<Integer> list = new ArrayList<>();
@@ -225,6 +227,7 @@ list.stream()
 
 ## 커스텀 집계(reduce())
 스트림은 기본 집계 메소드인 sum(), average(), count(), max(), min()을 제공하지만, 프로그램화해서 다양한 집계 결과물을 만들 수 있도록 reduce() 메소드도 제공한다.
+
 ![커스텀집계1.png](../../../커스텀집계1.png)
 
 각 인터페이스에는 매개 타입으로 XXXOperator, 리턴 타입으로 OptionalXXX, int, long, double을 가지는 reduce() 메소드가 오버로딩되어 있다. 스트림에 요소가 전혀 없을 경우 디폴트값인 identity 메개값이 리턴된다. XXXOperator 매개값은 집계 처리를 위한 람다식을 대입하는데 예를 들어 학생들의 성적 총점은 학생 스트림에서 점수 스트림으로 매핑해서 다음과 같이 없을 수 있다.
